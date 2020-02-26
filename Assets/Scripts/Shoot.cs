@@ -10,7 +10,7 @@ public class Shoot : MonoBehaviour
     public Transform arrowSpawnPoint;
     public float startTime = 0f;
     public float shootForce = 1f;
-    public float chargeSpeed = 10f;
+    public float chargeSpeed = 5000f;
     float maxForce = 100f;
     float minForce = 10f;
     public ChargeBar chargeBar;
